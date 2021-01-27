@@ -1,6 +1,4 @@
-# rubocop:disable Metrics/MethodLength
 # rubocop:disable Layout/LineLength
-# rubocop:disable Style/Documentation
 require_relative '../lib/scraper'
 
 class Iterate
@@ -20,6 +18,7 @@ class Iterate
     pagination_parsed_page.css('div.SerpJob-jobCard')
   end
 
+# rubocop:disable Metrics/MethodLength
   def iterate
     @jobs = []
     pagination_job_cards = start
@@ -36,7 +35,5 @@ class Iterate
     @page += 1
   end
 end
-
 # rubocop:enable Metrics/MethodLength
 # rubocop:enable Layout/LineLength
-# rubocop:enable Style/Documentation

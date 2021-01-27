@@ -1,3 +1,5 @@
+# !/usr/bin/env ruby
+
 # rubocop:disable Metrics/MethodLength
 # rubocop:disable Layout/LineLength
 
