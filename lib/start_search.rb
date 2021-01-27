@@ -1,5 +1,4 @@
 # rubocop:disable Layout/LineLength
-# rubocop:disable Metrics/MethodLength
 require_relative '../lib/scraper'
 
 class Iterate
@@ -35,5 +34,4 @@ class Iterate
     @page += 1
   end
 end
-# rubocop:enable Metrics/MethodLength
 # rubocop:enable Layout/LineLength
