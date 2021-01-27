@@ -1,10 +1,9 @@
 # A Web Scraper Capstone Project
-
-[](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Definition of Web Scraping
 Web scraping is the process of using bots to extract content and data from a website. It extracts underlying HTML code and, with it, data stored in a database. The scraper can then replicate entire website content elsewhere.
-It is also a form of copying, in which specific data is gathered and copied from the web, typically into a central local database or spreadsheet, for later retrieval or analysis.
+It is also a form of copying, in which specific data is gathered and copied from the web, typically into a central local database or spreadsheet, for later retrieval or analysis
 
 # About the project
 The purpose of this project is to develop a scraper tool to achieve web-scrapping. This was achieved using Ruby, Open-uri and Nokogiri gem.
@@ -13,10 +12,15 @@ Open uri is used to fetch data from the website url. This data is raw and unpars
 
 Nokogiri is an HTML, XML, SAX, and Reader parser. The raw data is parsed using Nokogiri thus easy to extract data.
 
+# Project Description
+
+In this project I scraped data from [simplyHired.com](https://www.simplyhired.com/search?q=junior+web+developer&job=IlFPuAnY1x4QykmoQBX-48Fp5mhGC2PfhCH2-d6si32qgmQkI-k5Bw). This website is mostly used to search for junior developers roles in various companies. After fetching the data, i filtered it according to Postion,Salary,Location and Company name. The total number of pages is displayed as well as the jobs in total.
 
 ## Built With
 
 - Ruby
+- Nokogiri
+-Open-uri
 
 
 ## Prerequisites
@@ -61,7 +65,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to [Patashule](https://www.behance.net/gallery/25563385/PatashuleKE) for the insipiration towards building the website.
+- Hat tip to  [simplyHired.com](https://www.simplyhired.com/search?q=junior+web+developer&job=IlFPuAnY1x4QykmoQBX-48Fp5mhGC2PfhCH2-d6si32qgmQkI-k5Bw) for their awesome website
 - Hat tip to Microverse for their `README` template.
 
 ## 📝MIT License
