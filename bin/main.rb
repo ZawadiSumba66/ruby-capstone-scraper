@@ -1,7 +1,7 @@
 # !/usr/bin/env ruby
 
 # rubocop:disable Layout/LineLength
-
+# rubocop:disable Metrics/MethodLength
 require_relative '../lib/start_search'
 require 'colorize'
 
@@ -72,4 +72,5 @@ def outcome
 end
 outcome
 
+# rubocop:enable Metrics/MethodLength
 # rubocop:enable Layout/LineLength
