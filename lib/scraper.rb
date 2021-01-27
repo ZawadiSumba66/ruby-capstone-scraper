@@ -17,8 +17,6 @@ class Scraper
     pages_count(parsed_page, job_cards)
   end
 
-  private
-
   def pages_count(parsed_page = nil, job_cards = nil)
     @page = 1
     per_page = job_cards.count

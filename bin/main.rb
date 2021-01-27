@@ -51,9 +51,9 @@ def outcome
   info
   while @page <= @last_page
     sleep 0.5
-    collect = Iterate.new(@total, @page)
-    collect.iterate
-    jobs = collect.instance_variable_get(:@jobs)
+    gather = Iterate.new(@total, @page)
+    gather.iterate
+    jobs = gather.instance_variable_get(:@jobs)
     i = 0
     puts "\t Page #{@page} \n\n"
     while i < jobs.count
