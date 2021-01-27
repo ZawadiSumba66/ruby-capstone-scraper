@@ -17,11 +17,11 @@ class Iterate
     pagination_parsed_page = Nokogiri::HTML(pagination_unparse_page)
     pagination_parsed_page.css('div.SerpJob-jobCard')
   end
-  
-# rubocop:disable Metrics/MethodLength
+
+ # rubocop:disable Metrics/MethodLength
 
   def iterate
-    @jobs = []
+    @jobs = [] 
     pagination_job_cards = start
     pagination_job_cards.each do |job_card|
       job = {
