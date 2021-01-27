@@ -1,7 +1,4 @@
-# frozen_string_literal: true
-
 # rubocop:disable Metrics/MethodLength
-# rubocop:disable Metrics/AbcSize
 # rubocop:disable Layout/LineLength
 
 require_relative '../lib/start_search'
@@ -75,5 +72,4 @@ end
 outcome
 
 # rubocop:enable Metrics/MethodLength
-# rubocop:enable Metrics/AbcSize
 # rubocop:enable Layout/LineLength
