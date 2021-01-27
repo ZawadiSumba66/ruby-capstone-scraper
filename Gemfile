@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
-gem 'rubocop'
-gem 'httparty'
-gem 'nokogiri'
 gem 'byebug'
 gem 'colorize'
 gem 'csv'
+gem 'nokogiri'
+gem 'open-uri'
+gem 'rubocop'
