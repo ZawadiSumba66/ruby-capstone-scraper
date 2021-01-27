@@ -20,7 +20,7 @@ In this project I scraped data from [simplyHired.com](https://www.simplyhired.co
 
 - Ruby
 - Nokogiri
--Open-uri
+- Open-uri
 
 
 ## Prerequisites
