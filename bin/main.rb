@@ -1,6 +1,5 @@
 # !/usr/bin/env ruby
 
-# rubocop:disable Metrics/MethodLength
 # rubocop:disable Layout/LineLength
 
 require_relative '../lib/start_search'
@@ -73,5 +72,4 @@ def outcome
 end
 outcome
 
-# rubocop:enable Metrics/MethodLength
 # rubocop:enable Layout/LineLength
