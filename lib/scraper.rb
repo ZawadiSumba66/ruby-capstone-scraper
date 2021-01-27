@@ -2,6 +2,9 @@
 
 require 'nokogiri'
 require 'open-uri'
+
+# rubocop:disable Style/Documentation
+
 class Scraper
   attr_reader :link
 
@@ -24,3 +27,5 @@ class Scraper
     @last_page = (@total.to_f / per_page).round
   end
 end
+
+# rubocop:enable Style/Documentation

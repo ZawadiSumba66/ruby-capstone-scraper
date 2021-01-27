@@ -77,3 +77,4 @@ outcome
 # rubocop:enable Metrics/MethodLength
 # rubocop:enable Metrics/AbcSize
 # rubocop:enable Layout/LineLength
+ 
