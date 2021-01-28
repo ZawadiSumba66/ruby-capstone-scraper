@@ -55,6 +55,11 @@ In this project I scraped data from [simplyHired.com](https://www.simplyhired.co
  ![](images/Screenshot_2.png)
 
  If you feel like continuing to the next page you will need to give a value 'y' otherwise 'n' to stop the process 
+ 
+ You can test the program by running
+ 
+ ``- rspec .\spec\start_search_spec.rb` and `.\spec\start_scraper.rb`
+ 
 ## Author
 
 👤 **Rose Sumba**
