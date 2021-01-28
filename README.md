@@ -53,7 +53,7 @@ In this project I scraped data from [simplyHired.com](https://www.simplyhired.co
 
  Then the first page of the website will be shown with all the job vacancies available. 
 
- ![](images\Screenshot_2.png)
+ ![](images/Screenshot_2.png)
 
  If you feel like continuing to the next page you will need to give a value 'y' otherwise 'n' to stop the process 
 ## Author
