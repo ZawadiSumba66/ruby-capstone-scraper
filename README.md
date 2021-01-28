@@ -1,18 +1,18 @@
 # A Web Scraper Capstone Project
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Definition of Web Scraping
+## Definition of Web Scraping
 Web scraping is the process of using bots to extract content and data from a website. It extracts underlying HTML code and, with it, data stored in a database. The scraper can then replicate entire website content elsewhere.
 It is also a form of copying, in which specific data is gathered and copied from the web, typically into a central local database or spreadsheet, for later retrieval or analysis
 
-# About the project
+## About the project
 The purpose of this project is to develop a scraper tool to achieve web-scrapping. This was achieved using Ruby, Open-uri and Nokogiri gem.
 
 Open uri is used to fetch data from the website url. This data is raw and unparsed thus cannot be understood by ruby
 
 Nokogiri is an HTML, XML, SAX, and Reader parser. The raw data is parsed using Nokogiri thus easy to extract data.
 
-# Project Description
+## Project Description
 
 In this project I scraped data from [simplyHired.com](https://www.simplyhired.com/search?q=junior+web+developer&job=IlFPuAnY1x4QykmoQBX-48Fp5mhGC2PfhCH2-d6si32qgmQkI-k5Bw). This website is mostly used to search for junior developers roles in various companies. After fetching the data, i filtered it according to Postion,Salary,Location and Company name. The total number of pages is displayed as well as the jobs in total.
 
@@ -34,25 +34,24 @@ In this project I scraped data from [simplyHired.com](https://www.simplyhired.co
 
 ## Getting Started
   1. Clone the repository
-`git clone https://github.com/ZawadiSumba66/ruby-capstone-scraper.git`
+- `git clone https://github.com/ZawadiSumba66/ruby-capstone-scraper.git`
 
 2. Change directory
-`cd RUBY-CAPSTONE-SCRAPER`
+- `cd RUBY-CAPSTONE-SCRAPER`
 
 4. Install open-uri and nokogiri gems by running
-`bundle install`
+- `bundle install`
 
 3. Run the program
-`ruby bin/main.rb`
+- `ruby bin/main.rb`
 
-# Instructions for users
+## Instructions for users
  When you run the file in the terminal. The process of scraping data will start with a welcome message.
 
  ![](images/Screenshot_1.png)
-
-
+ 
  Then the first page of the website will be shown with all the job vacancies available. 
-
+ 
  ![](images/Screenshot_2.png)
 
  If you feel like continuing to the next page you will need to give a value 'y' otherwise 'n' to stop the process 
