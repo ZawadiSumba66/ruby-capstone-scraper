@@ -48,7 +48,7 @@ In this project I scraped data from [simplyHired.com](https://www.simplyhired.co
 # Instructions for users
  When you run the file in the terminal. The process of scraping data will start with a welcome message.
 
- ![](images\Screenshot_1.png)
+ ![](images/Screenshot_1.png)
 
 
  Then the first page of the website will be shown with all the job vacancies available. 
