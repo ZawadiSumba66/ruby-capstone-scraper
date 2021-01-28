@@ -1,4 +1,3 @@
-
 # rubocop:disable Layout/LineLength
 class Iterate
   attr_reader :total, :page

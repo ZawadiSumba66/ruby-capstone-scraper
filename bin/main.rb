@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # !/usr/bin/env ruby
 
 # rubocop:disable Layout/LineLength
@@ -58,10 +56,10 @@ def outcome
     i = 0
     puts "\t Page #{@page} \n\n"
     while i < jobs.count
-      puts " Position: #{jobs[i][:title]}".yellow.bold
+      puts " Position: #{jobs[i][:title]}".cyan.bold
       puts " Company: #{jobs[i][:company]}"
-      puts " Location: #{jobs[i][:location]}".magenta.bold
-      puts " Salary: #{jobs[i][:salary]}".green.bold
+      puts " Location: #{jobs[i][:location]}"
+      puts " Salary: #{jobs[i][:salary]}"
       puts ''
       sleep(0.1)
       i += 1
