@@ -58,7 +58,7 @@ In this project I scraped data from [simplyHired.com](https://www.simplyhired.co
  
  You can test the program by running
  
- ``- rspec .\spec\start_search_spec.rb` and `.\spec\start_scraper.rb`
+ `- rspec .\spec\start_search_spec.rb` and `.\spec\start_scraper.rb`
  
 ## Author
 
