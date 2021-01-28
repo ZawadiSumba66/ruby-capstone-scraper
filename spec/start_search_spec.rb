@@ -1,11 +1,11 @@
 require_relative '../lib/start_search'
 
- # rubocop:disable Metrics/BlockLength
+# rubocop:disable Metrics/BlockLength
 describe Iterate do
   let(:display) { described_class.new(@total, @page) }
   describe '#iterate' do
     context 'when the list is given with its keys and values present' do
-   
+
       it 'checks the various parts of the website and returns the job vacancies available' do
         list = {
           Position: 'Junior Web Developer',
