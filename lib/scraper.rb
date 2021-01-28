@@ -16,6 +16,8 @@ class Scraper
     job_cards = parsed_page.css('div.SerpJob-jobCard')
     pages_count(parsed_page, job_cards)
   end
+  
+  private
 
   def pages_count(parsed_page = nil, job_cards = nil)
     @page = 1

@@ -35,14 +35,23 @@ Nokogiri is an HTML, XML, SAX, and Reader parser. The raw data is parsed using N
 2. Change directory
 `cd RUBY-CAPSTONE-SCRAPER`
 
-4. Install these gems by running
-`gem install nokogiri`
-`gem install open-uri`
+4. Install open-uri and nokogiri gems by running
+`bundle install`
 
 3. Run the program
 `ruby bin/main.rb`
 
+# Instructions for users
+ When you run the file in the terminal. The process of scraping data will start with a welcome message.
 
+ ![](images\Screenshot_1.png)
+
+
+ Then the first page of the website will be shown with all the job vacancies available. 
+
+ ![](images\Screenshot_2.png)
+
+ If you feel like continuing to the next page you will need to give a value 'y' otherwise 'n' to stop the process 
 ## Author
 
 👤 **Rose Sumba**
