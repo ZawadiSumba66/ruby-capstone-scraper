@@ -1,3 +1,4 @@
+
 require_relative '../lib/scraper'
 
 describe Scraper do
@@ -8,15 +9,6 @@ describe Scraper do
       it 'should return true for the first method' do
         allow(scrap).to receive(:first).and_return(true)
         expect(scrap.first).to eq(true)
-      end
-    end
-  end
-
-  describe '#pages_count' do
-    context 'when total number of jobs and the job count per page is true' do
-      it 'should return true for the first method' do
-        allow(scrap).to receive(:pages_count).and_return(true)
-        expect(scrap.pages_count).to eq(true)
       end
     end
   end

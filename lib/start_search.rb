@@ -1,6 +1,5 @@
-# rubocop:disable Layout/LineLength
-require_relative '../lib/scraper'
 
+# rubocop:disable Layout/LineLength
 class Iterate
   attr_reader :total, :page
   attr_accessor :jobs

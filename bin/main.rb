@@ -1,8 +1,11 @@
+# frozen_string_literal: true
+
 # !/usr/bin/env ruby
 
 # rubocop:disable Layout/LineLength
 # rubocop:disable Metrics/MethodLength
 require_relative '../lib/start_search'
+require_relative '../lib/scraper'
 require 'colorize'
 
 def info

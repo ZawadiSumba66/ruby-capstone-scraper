@@ -10,13 +10,12 @@ class Scraper
 
   def first
     url = @link
-
     unparsed_page = ::OpenURI.open_uri(url)
     parsed_page = Nokogiri::HTML(unparsed_page)
     job_cards = parsed_page.css('div.SerpJob-jobCard')
     pages_count(parsed_page, job_cards)
   end
-  
+
   private
 
   def pages_count(parsed_page = nil, job_cards = nil)
