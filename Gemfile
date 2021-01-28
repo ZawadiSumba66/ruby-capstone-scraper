@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'byebug'
+gem 'colorize'
+gem 'nokogiri'
+gem 'open-uri'
+gem 'rubocop'
