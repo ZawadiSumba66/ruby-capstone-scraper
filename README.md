@@ -66,7 +66,7 @@ In this project I scraped data from [simplyHired.com](https://www.simplyhired.co
 
 - GitHub: [@ZawadiSumba66](https://github.com/ZawadiSumba66)
 - Twitter: [@zawadirose1](https://twitter.com/zawadirose1)
-- LinkedIn: [rose-sumba](https://www.linkedin.com/in/rose-sumba/)
+- LinkedIn: [rose-sumba](https://www.linkedin.com/in/rosesumba/)
 
 ## 🤝 Contributing
 
