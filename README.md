@@ -1,4 +1,4 @@
-# A Web Scraper Capstone Project
+# A Web Scraper
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 ## Definition of Web Scraping
